@@ -1,0 +1,22 @@
+<html>
+<body>
+    <script>
+      var sum=0,num;
+            var d = prompt("Enter of number");
+            num=d;
+            while(d>0)
+                {
+                   var r=d%10;
+                    sum=(sum*10)+r;
+                    d = parseInt(d/10);
+                }
+            if(num==sum)
+            {
+                document.write(" palindrome number");
+            }
+            else{
+                document.write(" not palindrome number");
+            } 
+    </script>
+</body>
+</html>
