@@ -1,0 +1,23 @@
+<html>
+<body>
+    <script>
+      var num,r,sum=0;
+        var n = prompt("Enter Number a Number : ");
+        num=n;
+        while(n>0)
+        {
+        r=n%10;
+        sum=r*r*r+sum;
+        n=parseInt(n/10);
+        }
+        if(num==sum)
+        {
+        document.write("Its Armstrong Number")
+        }
+        else
+        {
+        document.write("Its Not Armstrong Number")
+        }
+</script>
+</body>
+</html>
