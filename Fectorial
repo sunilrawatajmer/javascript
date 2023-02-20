@@ -1,0 +1,13 @@
+<html>
+<body>
+    <script>
+        var n,i,fact=1;
+        var n = prompt("Enter Any Number");
+        for(i=1;i<=n;i++)
+            {
+                 fact = fact * i;
+            }
+        document.write(fact);
+</script>
+</body>
+</html>
